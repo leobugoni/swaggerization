@@ -1,0 +1,13 @@
+swagger: '2.0'
+info:
+  version: 3.4.4
+  title: Redmine
+
+paths:
+  '/issues.json':
+    post:
+      summary: Cria Issue
+      description: Cria Issue
+      responses:
+        200:
+          description: OK
